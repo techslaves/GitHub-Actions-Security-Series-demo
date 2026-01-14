@@ -1,5 +1,8 @@
 name: GitHub token permission Demo
 on: [workflow_dispatch]
+
+permissions:
+  contents: write
   
 jobs:
   leak-job:
